@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Primary module hooks for commerce_cart_forcerefresh module.
+ */
+function commerce_cart_forcerefresh_form_views_form_commerce_cart_form_default_1_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $form['#attached']['library'][] = 'commerce_cart_forcerefresh/commerce_cart_forcerefresh';
+}

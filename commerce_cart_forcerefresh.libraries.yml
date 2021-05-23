@@ -1,0 +1,9 @@
+# Custom module library for general purposes.
+commerce_cart_forcerefresh:
+  js:
+    js/commerce-cart-forcerefresh.js: {}
+  css:
+    component:
+      css/commerce-cart-forcerefresh.css: {}
+  dependencies:
+    - core/drupalSettings

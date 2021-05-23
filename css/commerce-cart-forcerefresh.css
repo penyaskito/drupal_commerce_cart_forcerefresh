@@ -1,0 +1,16 @@
+form#views-form-commerce-cart-form-default-1 tr.changed {
+  background: #ffb;
+}
+
+form#views-form-commerce-cart-form-default-1 tr .form-type-item .ajax-changed {
+  position: absolute;
+}
+
+form#views-form-commerce-cart-form-default-1 input.button {
+  background-image: linear-gradient(to bottom, #ecef4b, #d4ee5f)
+}
+
+form#views-form-commerce-cart-form-default-1 input.button:disabled {
+  text-decoration: line-through;
+  background-image: linear-gradient(to bottom, #fff, #ccc)
+}
